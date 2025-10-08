@@ -119,7 +119,7 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&trans           &kp F1        &kp F2        &kp F3  &kp F4    &kp F5            &kp F6          &kp F7    &kp F8  &kp F9  &kp F10                   &kp F11
+&kp APOS         &kp F1        &kp F2        &kp F3  &kp F4    &kp F5            &kp F6          &kp F7    &kp F8  &kp F9  &kp F10                   &kp F11
 &trans           &trans        &trans        &trans  &td1rest  &td1bootloader    &td1bootloader  &td1rest  &trans  &trans  &kp LS(LG(LC(NUMBER_4)))  &kp F12
 &rgb_ug RGB_TOG  &out OUT_USB  &out OUT_BLE  &trans  &trans    &trans            &trans          &trans    &trans  &trans  &kp SCROLLLOCK            &kp PAUSE_BREAK
                                              &trans  &trans    &trans            &trans          &trans    &trans
