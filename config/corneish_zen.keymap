@@ -128,10 +128,10 @@
 
         layer_4 {
             bindings = <
-&trans  &kp LC(C)  &kp LC(Z)  &trans        &trans          &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans        &trans          &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &kp LG(X)  &kp LG(C)     &kp LG(V)       &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-                              &msc SCRL_UP  &msc SCRL_DOWN  &kp LS(LG(LC(NUMBER_4)))    &trans  &trans  &trans
+&trans  &kp LC(C)  &kp LC(Z)  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE                  &kp K_PLAY_PAUSE  &kp K_FORWARD  &kp K_BACK  &trans  &trans  &trans
+&trans  &trans     &trans     &trans           &trans             &trans                      &trans            &trans         &trans      &trans  &trans  &trans
+&trans  &trans     &kp LG(X)  &kp LG(C)        &kp LG(V)          &trans                      &trans            &trans         &trans      &trans  &trans  &trans
+                              &msc SCRL_UP     &msc SCRL_DOWN     &kp LS(LG(LC(NUMBER_4)))    &trans            &trans         &trans
             >;
         };
     };
