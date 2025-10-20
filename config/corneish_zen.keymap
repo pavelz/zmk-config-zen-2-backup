@@ -75,7 +75,7 @@
         compatible = "zmk,combos";
 
         mouser {
-            bindings = <&mo 5>;
+            bindings = <&kp RA(SPACE)>;
             key-positions = <36 37 38>;
         };
     };
