@@ -52,8 +52,6 @@
             flavor = "hold-preferred";
         };
 
-        clear all BT clear all BT
-
         clearBT: clearBT {
             compatible = "zmk,behavior-tap-dance";
             label = "CLEARBT";
