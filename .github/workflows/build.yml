@@ -39,13 +39,13 @@ jobs:
         run: west zephyr-export
         
       - name: West Build (Corne-ish Zen Left)
-        run: west build -s zmk/app -b corneish_zen_left@2 -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
+        run: west build -s zmk/app -b corneish_zen_left@2 -- -DCONFIG_BUILD_OUTPUT_UF2=y -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
         
       - name: Rename zmk.uf2
         run: cp build/zephyr/zmk.uf2 corne-ish-zen-left.uf2
         
       - name: West Build (Corne-ish Zen Right)
-        run: west build --pristine -s zmk/app -b corneish_zen_right@2 -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
+        run: west build --pristine -s zmk/app -b corneish_zen_right@2 -- -DCONFIG_BUILD_OUTPUT_UF2=y -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
         
       - name: Rename zmk.uf2
         run: cp build/zephyr/zmk.uf2 corne-ish-zen-right.uf2
