@@ -1,5 +1,7 @@
 include:
   - board: corneish_zen_left@2
   - board: corneish_zen_right@2
-  - board: nice_nano_v2
+  - board: corneish_zen_left@2
+    shield: settings_reset
+  - board: corneish_zen_right@2
     shield: settings_reset
