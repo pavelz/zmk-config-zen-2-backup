@@ -64,3 +64,4 @@ jobs:
           path: |
             corne-ish-zen-left.uf2
             corne-ish-zen-right.uf2
+            settings-reset.uf2
